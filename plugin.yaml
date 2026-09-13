@@ -1,0 +1,10 @@
+name: team_ai
+version: 0.1.0
+description: "Put several models on one question. `team_race` fires them in parallel and returns the first usable answer — fastest wins. `team_discuss` runs them in turns instead: each model reads what the others said and either fills the gap or argues with it, addressing peers as @model, until the panel converges or the round budget runs out. `team_plan` and `team_build` run the same turn-taking with a different brief — one converges on ordered steps and names risks, the other drafts an artifact then revises it under peer review. Models are named explicitly; nothing is called that the caller did not list."
+author: local
+kind: standalone
+provides_tools:
+  - team_race
+  - team_discuss
+  - team_plan
+  - team_build

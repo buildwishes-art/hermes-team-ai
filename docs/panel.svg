@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" height="560" font-family="ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif">
+  <title>Team AI — a two-model discussion in the Hermes chat surface</title>
+  <desc>A rendering of the live UI: the user's message, the tool calls, the panel header line, two model bubbles, and the composer with the Team control armed.</desc>
+
+  <rect width="800" height="560" fill="#14111e"/>
+
+  <!-- user message -->
+  <rect x="186" y="24" width="568" height="66" rx="10" fill="#29233b"/>
+  <text x="206" y="50" fill="#eceaf3" font-size="15">One short sentence each: name one risk of</text>
+  <text x="206" y="72" fill="#eceaf3" font-size="15">plugin-supplied UI.</text>
+
+  <!-- tool chips -->
+  <text x="48" y="130" fill="#7f7893" font-size="13">🔧</text>
+  <text x="70" y="130" fill="#aba4bd" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">tool_search</text>
+  <text x="168" y="130" fill="#7f7893" font-size="12">["team_discuss multi-model conversation"]</text>
+  <text x="736" y="130" fill="#7f7893" font-size="13">›</text>
+
+  <text x="48" y="164" fill="#7f7893" font-size="13">🔧</text>
+  <text x="70" y="164" fill="#aba4bd" font-size="13" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">tool_describe</text>
+  <text x="184" y="164" fill="#7f7893" font-size="12">["team_discuss"]</text>
+  <text x="736" y="164" fill="#7f7893" font-size="13">›</text>
+
+  <!-- panel note -->
+  <text x="48" y="206" fill="#7f7893" font-size="13">Discuss · 2 models · 1 round · stopped because round budget reached</text>
+
+  <!-- turn 1 -->
+  <text x="48" y="242" fill="hsl(37 55% 65%)" font-size="13" font-weight="500" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">@big-pickle</text>
+  <text x="152" y="242" fill="#7f7893" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">big-pickle · via oc/big-pickle · 1.64s</text>
+  <rect x="48" y="256" width="692" height="66" rx="8" fill="#1e1a2c" stroke="hsl(37 40% 45%)" stroke-opacity="0.45"/>
+  <text x="66" y="282" fill="#eceaf3" font-size="14">Plugin-supplied UI can execute untrusted code in your app's context,</text>
+  <text x="66" y="304" fill="#eceaf3" font-size="14">creating a serious security and XSS risk.</text>
+
+  <!-- turn 2 -->
+  <text x="48" y="356" fill="hsl(37 55% 65%)" font-size="13" font-weight="500" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">@big-pickle</text>
+  <text x="152" y="356" fill="#7f7893" font-size="11" font-family="ui-monospace, SFMono-Regular, Menlo, monospace">big-pickle · via oc/hy3-free · 6.42s</text>
+  <rect x="48" y="370" width="692" height="66" rx="8" fill="#1e1a2c" stroke="hsl(37 40% 45%)" stroke-opacity="0.45"/>
+  <text x="66" y="396" fill="#eceaf3" font-size="14">@big-pickle, another risk is that plugin-supplied UI can spoof legitimate</text>
+  <text x="66" y="418" fill="#eceaf3" font-size="14">app dialogs, tricking users into approving actions they never intended.</text>
+
+  <!-- composer -->
+  <rect x="34" y="462" width="720" height="76" rx="16" fill="#1e1a2c" stroke="#7468a0"/>
+  <text x="62" y="492" fill="#aba4bd" font-size="14">How can I help you today?</text>
+
+  <text x="62" y="522" fill="#aba4bd" font-size="14">+</text>
+
+  <text x="96" y="522" fill="#aba4bd" font-size="12">oc/big-pickle</text>
+  <text x="172" y="522" fill="#aba4bd" font-size="10">▾</text>
+
+  <text x="196" y="522" fill="#aba4bd" font-size="12">⚒ Build</text>
+  <text x="246" y="522" fill="#aba4bd" font-size="10">▾</text>
+
+  <!-- the plugin's control, armed -->
+  <text x="274" y="522" fill="#a78bfa" font-size="12">◉ Discuss · 2 models</text>
+
+  <circle cx="714" cy="514" r="18" fill="#a78bfa"/>
+  <text x="714" y="520" fill="#14111e" font-size="15" text-anchor="middle">↑</text>
+</svg>

@@ -1,0 +1,13 @@
+{
+  "name": "team_ai",
+  "label": "Team AI",
+  "description": "Put several models on one message — racing, or talking to each other. Adds a Team control to the chat composer.",
+  "icon": "Users",
+  "version": "0.2.0",
+  "tab": {
+    "path": "/team-ai",
+    "hidden": true
+  },
+  "slots": ["chat:composer", "overlay"],
+  "entry": "dist/index.js"
+}
